@@ -1,0 +1,19 @@
+{
+  "name": "@lexical-zero-width-ime/vanilla",
+  "version": "1.0.0",
+  "description": "A Lexical editor plugin for Vanilla JS to fix Safari caret issues and IME conflicts using Zero Width No-Break Space.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daisuke Akazawa",
+  "license": "MIT",
+  "dependencies": {
+    "lexical": ">=0.12.0"
+  },
+  "peerDependencies": {
+    "lexical-zero-width-ime": "^1.0.0"
+  }
+}

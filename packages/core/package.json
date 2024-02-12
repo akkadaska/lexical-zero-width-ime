@@ -1,0 +1,19 @@
+{
+  "name": "lexical-zero-width-ime",
+  "version": "1.0.0",
+  "description": "Core logic of a Lexical editor plugin to fix Safari caret issues and IME conflicts using Zero Width No-Break Space (U+FEFF).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daisuke Akazawa",
+  "license": "MIT",
+  "dependencies": {
+    "@lexical/utils": ">=0.12.0"
+  },
+  "peerDependencies": {
+    "lexical": ">=0.12.0"
+  }
+}
